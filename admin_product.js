@@ -120,7 +120,7 @@ createApp({
         this.getData();
       } catch (error) {
         alert(`請重新登入`);
-        location.href = "login.html";
+        location.href = "index.html";
       }
     },
     async getData() {
